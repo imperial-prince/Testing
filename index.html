@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday!</title>
+    <title>Happy Birthday Shruti!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -19,13 +19,17 @@
     <!-- Navigation -->
     <nav class="main-nav">
         <div class="nav-container">
-            <div class="nav-logo">For You</div>
+            <div class="nav-logo">For Shruti</div>
             <div class="nav-links">
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#wishes" class="nav-link">Wishes</a>
+                <a href="#memories" class="nav-link">Memories</a>
                 <a href="#letter" class="nav-link">Letter</a>
                 <a href="#cake" class="nav-link">Cakes</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
                 <a href="#charm" class="nav-link">Charm</a>
+                <a href="#blessings" class="nav-link">Blessings</a>
+                <a href="#future" class="nav-link">Future</a>
                 <a href="#final" class="nav-link">Final</a>
             </div>
             <button id="music-toggle" class="music-btn">
@@ -42,19 +46,15 @@
                 <div class="hero-bg"></div>
                 <div class="hero-content">
                     <div class="birthday-text">
-                        <h1 class="birthday-title">Happy Birthday <span class="name-highlight">Shruti!</span></h1>
+                        <h1 class="birthday-title">Happy Birthday</h1>
+                        <h2 class="birthday-name">Shruti!</h2>
                         <p class="birthday-subtitle">May your day be as special as you are</p>
                     </div>
                     <div class="hero-animation">
-                        <div class="floating-balloon balloon-1">🎈</div>
-                        <div class="floating-balloon balloon-2">🎈</div>
-                        <div class="floating-balloon balloon-3">🎈</div>
-                        <div class="floating-balloon balloon-4">🎈</div>
-                        <div class="floating-balloon balloon-5">🎈</div>
-                        <div class="floating-confetti"></div>
+                        <!-- Balloons will be added by JavaScript -->
                     </div>
                     <button class="cta-button explore-btn">
-                        <i class="fas fa-arrow-down"></i> Explore Your Day
+                        <i class="fas fa-arrow-down"></i> Explore Your Special Day
                     </button>
                 </div>
             </div>
@@ -67,23 +67,68 @@
                 <div class="wishes-grid">
                     <div class="wish-card" data-delay="0">
                         <div class="wish-icon">✨</div>
-                        <h3>Amazing Friend</h3>
-                        <p>You're the most wonderful friend anyone could ask for! Your kindness and positivity light up every room.</p>
+                        <h3>Amazing Person</h3>
+                        <p>You're the most wonderful person anyone could ask for! Your kindness and positivity light up every room.</p>
                     </div>
                     <div class="wish-card" data-delay="0.2">
                         <div class="wish-icon">🌟</div>
-                        <h3>Incredible Person</h3>
-                        <p>Your strength and intelligence inspire everyone around you. Keep shining bright!</p>
+                        <h3>Secret Superstar</h3>
+                        <p>Tumhari aawaz and gaane itne laajawab ki spotify ki jaroorat hi na pde.</p>
                     </div>
                     <div class="wish-card" data-delay="0.4">
                         <div class="wish-icon">💖</div>
-                        <h3>Beautiful Soul</h3>
+                        <h3>Beautiful Heart</h3>
                         <p>Your compassion and empathy make the world a better place. Never change!</p>
                     </div>
                     <div class="wish-card" data-delay="0.6">
                         <div class="wish-icon">🎉</div>
                         <h3>Joy Bringer</h3>
                         <p>Your laughter is contagious and your spirit is uplifting. You make life more fun!</p>
+                    </div>
+                    <div class="wish-card" data-delay="0.8">
+                        <div class="wish-icon">🌈</div>
+                        <h3>Rainbow of Hope</h3>
+                        <p>You bring color and hope to every situation. Your optimism is truly inspiring!</p>
+                    </div>
+                    <div class="wish-card" data-delay="1.0">
+                        <div class="wish-icon">🦋</div>
+                        <h3>Free Spirit</h3>
+                        <p>Your free spirit and authenticity are rare and beautiful. Never stop being you!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section id="memories" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Virtual Memories</h2>
+                <div class="memories-container">
+                    <div class="memory-timeline">
+                        <div class="memory-item left">
+                            <div class="memory-content">
+                                <h3>First Impressions</h3>
+                                <p>Remember when we first connected? Your genuine nature and warm smile made an immediate impact.</p>
+                            </div>
+                        </div>
+                        <div class="memory-item right">
+                            <div class="memory-content">
+                                <h3>Laughter Echoes</h3>
+                                <p>All those moments of shared laughter that created bonds stronger than distance.</p>
+                            </div>
+                        </div>
+                        <div class="memory-item left">
+                            <div class="memory-content">
+                                <h3>Support System</h3>
+                                <p>Through challenges and triumphs, your unwavering support has been a constant source of strength.</p>
+                            </div>
+                        </div>
+                        <div class="memory-item right">
+                            <div class="memory-content">
+                                <h3>Future Dreams</h3>
+                                <p>All the aspirations we've shared and dreams we've discussed. May they all manifest for you!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,17 +148,17 @@
                     </div>
                     <div class="letter-content" id="letter-content">
                         <div class="letter-header">
-                            <h3>To My Dearest Shruti,</h3>
+                            <h3>Dear Shruti,</h3>
                         </div>
                         <div class="letter-body">
-                            <p>Happy Birthday, Shruti.</p>
+                            <p>Happyyyyy Happyyyyyy Happyyyyyy Birthdayyyyyyyy</p>
                             <p>I don't say things like this often, but you deserve it.</p>
                             <p>Thank you for being the one person who stayed real with me—no games, no noise, no pretence. You've seen me in my silent moods, my confused phases, my overthinking… and you still understood me without forcing anything. That means more than I can ever explain.</p>
-                            <p>You've always been gentle, warm, and genuine in a world where most people aren't. You make things feel lighter. You make life feel less complicated.</p>
-                            <p>I just want this year to give you everything you've been quietly hoping for—peace, clarity, happiness, and people who treat you with the same honesty and kindness you give.</p>
+                            <p>You've always been gentle, warm, and genuine in a world where most people aren't. You make things feel lighter.</p>
+                            <p>I just want this year to give you everything you've been quietly hoping for.</p>
                             <p>Stay the same, Shruti. You're rare.</p>
-                            <p>And I'm grateful you're in my life.</p>
-                            <p class="letter-closing">Happy Birthday.</p>
+                            <p>I'm grateful you're in my life.</p>
+                            <p class="letter-closing">Happy Birthday.<br>Your Param Mitra</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +188,7 @@
                     </button>
                     <div class="wish-message" id="wish-message">
                         <h3>🎉 Your wish will come true! 🎉</h3>
-                        <p>May all your dreams and wishes be fulfilled this year!</p>
+                        <p>May all your dreams and wishes be fulfilled this year and always!</p>
                     </div>
                 </div>
                 
@@ -164,6 +209,73 @@
                         <div class="cake-emoji">🍩</div>
                         <h4>Sweet Donut</h4>
                     </div>
+                    <div class="cake-item">
+                        <div class="cake-emoji">🍫</div>
+                        <h4>Chocolate Fantasy</h4>
+                    </div>
+                    <div class="cake-item">
+                        <div class="cake-emoji">🍒</div>
+                        <h4>Berry Bliss</h4>
+                    </div>
+                    <div class="cake-item">
+                        <div class="cake-emoji">🥮</div>
+                        <h4>Mooncake Magic</h4>
+                    </div>
+                    <div class="cake-item">
+                        <div class="cake-emoji">🍦</div>
+                        <h4>Ice Cream Cake</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Virtual Celebration Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🎈</div>
+                            <h3>Balloon Festival</h3>
+                            <p>A sky full of colorful balloons just for you!</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🎁</div>
+                            <h3>Gift Mountain</h3>
+                            <p>Virtual presents filled with love and good wishes.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🎪</div>
+                            <h3>Birthday Carnival</h3>
+                            <p>A festive celebration with all your favorite things.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🌠</div>
+                            <h3>Starry Night</h3>
+                            <p>The universe celebrating your special day with stars.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🌸</div>
+                            <h3>Floral Paradise</h3>
+                            <p>Beautiful flowers blooming in your honor today.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🎶</div>
+                            <h3>Musical Symphony</h3>
+                            <p>The world singing happy birthday in harmony.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🕯️</div>
+                            <h3>Candlelight Blessings</h3>
+                            <p>A thousand candles lit with wishes for your happiness.</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-icon">🌅</div>
+                            <h3>Golden Sunrise</h3>
+                            <p>A new dawn of opportunities and joy begins today.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -171,15 +283,112 @@
         <!-- Charm Section -->
         <section id="charm" class="section">
             <div class="section-container">
-                <h2 class="section-title">A Protective Charm</h2>
+                <h2 class="section-title">Divine Protection</h2>
                 <div class="charm-container">
                     <div class="charm-circle">
-                        <div class="charm-symbol">☯</div>
+                        <div class="charm-symbol">ॐ</div>
                     </div>
                     <div class="charm-text">
-                        <p>This is a special charm to protect you from all negativity and evil. May it surround you with positive energy, light, and happiness wherever you go.</p>
-                        <p>Carry this virtual charm in your heart, and may it remind you that you are stronger than any challenge that comes your way.</p>
-                        <p>May it shield you from harm and bring you peace in difficult moments. You deserve all the protection and goodness in the world.</p>
+                        <p>This sacred <strong>Om</strong> symbol carries the vibration of the universe and offers divine protection. May it surround you with positive energy, spiritual light, and eternal blessings.</p>
+                        <p>In Sanatan Dharma, Om represents the ultimate reality, consciousness, and the eternal truth. May this sacred symbol guide you, protect you from all negativity, and bring peace to your soul.</p>
+                        <p>Carry this divine vibration in your heart, and may it remind you of your inner strength and connection to the cosmic energy that flows through all things.</p>
+                        <div class="mantra-section">
+                            <h3>Protective Mantra</h3>
+                            <p class="mantra">"ॐ सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः।<br>सर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत्॥"</p>
+                            <p class="mantra-meaning">"May all be happy, may all be free from diseases,<br>May all see what is auspicious, may no one suffer from grief."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blessings Section -->
+        <section id="blessings" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Divine Blessings</h2>
+                <div class="blessings-container">
+                    <div class="blessings-grid">
+                        <div class="blessing-card">
+                            <div class="blessing-icon">🪔</div>
+                            <h3>Lakshmi's Blessings</h3>
+                            <p>May Goddess Lakshmi bless you with abundance, prosperity, and fulfillment in all aspects of life.</p>
+                        </div>
+                        <div class="blessing-card">
+                            <div class="blessing-icon">📿</div>
+                            <h3>Saraswati's Wisdom</h3>
+                            <p>May Goddess Saraswati bless you with knowledge, creativity, and eloquent expression.</p>
+                        </div>
+                        <div class="blessing-card">
+                            <div class="blessing-icon">🕉️</div>
+                            <h3>Shiva's Protection</h3>
+                            <p>May Lord Shiva protect you from all negativity and guide you toward spiritual enlightenment.</p>
+                        </div>
+                        <div class="blessing-card">
+                            <div class="blessing-icon">🌺</div>
+                            <h3>Vishnu's Grace</h3>
+                            <p>May Lord Vishnu's divine grace bring peace, harmony, and balance to your life's journey.</p>
+                        </div>
+                        <div class="blessing-card">
+                            <div class="blessing-icon">🐘</div>
+                            <h3>Ganesha's Guidance</h3>
+                            <p>May Lord Ganesha remove all obstacles and bless you with wisdom and success.</p>
+                        </div>
+                        <div class="blessing-card">
+                            <div class="blessing-icon">🌞</div>
+                            <h3>Surya's Energy</h3>
+                            <p>May Lord Surya fill your life with vibrant energy, health, and vitality.</p>
+                        </div>
+                    </div>
+                    <div class="prayer-section">
+                        <h3>A Special Prayer for You</h3>
+                        <div class="prayer-text">
+                            <p>On this blessed day of your birth, may the divine light illuminate your path,</p>
+                            <p>May the cosmic energy flow through you with strength and vitality,</p>
+                            <p>May your heart be filled with compassion and your mind with clarity,</p>
+                            <p>May you walk through life with grace, courage, and unwavering faith,</p>
+                            <p>And may you always remember that you are a beautiful expression of the divine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Section -->
+        <section id="future" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Wishes for Your Future</h2>
+                <div class="future-container">
+                    <div class="future-grid">
+                        <div class="future-card">
+                            <div class="future-icon">🌟</div>
+                            <h3>Boundless Success</h3>
+                            <p>May every endeavor you undertake be met with success and recognition.</p>
+                        </div>
+                        <div class="future-card">
+                            <div class="future-icon">💖</div>
+                            <h3>Everlasting Joy</h3>
+                            <p>May happiness find you in every moment and peace reside in your heart always.</p>
+                        </div>
+                        <div class="future-card">
+                            <div class="future-icon">🌍</div>
+                            <h3>Beautiful Journeys</h3>
+                            <p>May your life's journey be filled with wonderful experiences and meaningful connections.</p>
+                        </div>
+                        <div class="future-card">
+                            <div class="future-icon">📚</div>
+                            <h3>Continuous Growth</h3>
+                            <p>May you always find opportunities to learn, grow, and evolve into your best self.</p>
+                        </div>
+                        <div class="future-card">
+                            <div class="future-icon">🤝</div>
+                            <h3>Genuine Connections</h3>
+                            <p>May you be surrounded by people who appreciate your true worth and celebrate your essence.</p>
+                        </div>
+                        <div class="future-card">
+                            <div class="future-icon">🌈</div>
+                            <h3>Colorful Adventures</h3>
+                            <p>May your life be a beautiful tapestry of exciting adventures and cherished memories.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,11 +400,16 @@
                 <div class="final-container">
                     <div class="final-message">
                         <h2>Happy Birthday Once Again!</h2>
-                        
-                        <p>I'm sorry if this wish is reaching you a little late.</p>
+                       
+                        <p>I'm sorry if this wish is reaching you a little late, but my wishes for your happiness are always on time in my heart.</p>
                         <p>Enjoy your day to the fullest, and may your future be filled with all the joy, success, and beautiful moments you deserve.</p>
-                        <p>Whether I'm present in your life or not, know that I will always wish for your happiness. You deserve the world, and I hope life gives you everything you've ever dreamed of.</p>
+                        <p>Whether I'm present in your life or not, know that I will always wish for your happiness.</p>
                         <p class="closing">With warmest wishes on your special day and always.</p>
+                    </div>
+                    <div class="final-animation">
+                        <div class="floating-heart">💝</div>
+                        <div class="floating-heart">✨</div>
+                        <div class="floating-heart">🌟</div>
                     </div>
                 </div>
             </div>
